@@ -13,7 +13,7 @@ This extension's purpose is to make writing nools more user-friendly in visual s
 ##  Prerequisites
 
 - Visual Studio Code
-- Node.js (only required if you want to package a `.vsix`)
+- Node.js 
 - Git
 
 ---
