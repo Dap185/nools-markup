@@ -1,0 +1,5 @@
+rule helloworld {
+    when {
+        Object o: 
+    }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "nools-markup",
+  "displayName": "nools-markup",
+  "description": "markup for nools",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.107.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dap185/nools-markup"
+  },
+
+  "main": "./extension.js",
+  "contributes": {
+    "languages": [
+      {
+        "id": "nools",
+        "aliases": ["Nools"],
+        "extensions": [".nools"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nools",
+        "scopeName": "source.nools",
+        "path": "./syntaxes/nools.tmLanguage.json"
+      }
+    ],
+    "commands": [{
+      "command": "nools-markup.helloWorld",
+      "title": "Hello World"
+    }]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.107.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.1",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+
+}

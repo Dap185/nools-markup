@@ -1,0 +1,12 @@
+{
+  "scopeName": "source.nools",
+  "patterns": [
+    {
+      "name": "keyword.control.nools",
+      "match": "\\b(rule|when|then|not|global|salience)\\b"
+    },
+    {
+      "include": "source.js"
+    }
+  ]
+}
