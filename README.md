@@ -2,12 +2,11 @@
 
 Syntax highlighting for the **Nools JavaScript rules engine** in Visual Studio Code.
 
-This extension adds:
-- JavaScript-style highlighting
-- Nools keywords (`rule`, `when`, `then`, `not`, `salience`)
-- Support for `.nools` files
+## About
 
-No VS Code Marketplace account is required to use this extension.
+[Nools](http://noolsjs.com/) is a rules engine for javascript that implements the [Rete](https://en.wikipedia.org/wiki/Rete_algorithm) Algorithm. One application of Nools is building cognitive tutors with [CTAT](https://github.com/CMUCTAT/CTAT/wiki). 
+
+This extension's purpose is to make writing nools more user-friendly in visual studio code. 
 
 ---
 
