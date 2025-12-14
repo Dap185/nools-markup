@@ -42,7 +42,17 @@ Create the `.vsix` file:
 ```
 vsce package
 ```
-This will generate a file, for example `nools-markup-0.0.1.vsix` where `0.0.1` represents the current version.
+This will generate a file, for example `nools-markup-0.0.1.vsix` (where `0.0.1` represents the current version.)
 
 ### 4. Install the extension in VS Code
 code --install-extension nools-markup-0.0.1.vsix
+
+## Making Changes
+### 1. Make your changes
+### 2. Build the package
+```
+vsce package
+```
+### 3. Install Updated Package
+code --install-extension nools-markup-0.0.1.vsix (where `0.0.1` represents the current version.)
+### 4. Reload vscode

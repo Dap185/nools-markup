@@ -2,7 +2,7 @@
   "name": "nools-markup",
   "displayName": "nools-markup",
   "description": "markup for nools",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.107.0"
   },
