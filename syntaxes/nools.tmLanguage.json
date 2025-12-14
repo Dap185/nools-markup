@@ -3,7 +3,7 @@
   "patterns": [
     {
       "name": "keyword.control.nools",
-      "match": "\\b(rule|when|then|not|global|salience)\\b"
+      "match": "\\b(rule|when|then|not|global|define|salience)\\b"
     },
     {
       "include": "source.js"
