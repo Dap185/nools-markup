@@ -29,17 +29,17 @@ cd nools-markup
 ```
 
 ### 2. Install dependencies
-```
+```bash
 npm install
 ```
 
 ### 3. Package the extension
 Install the VS-code extension packager (one-time):
-```
+```bash
 npm install -g @vscode/vsce
 ```
 Create the `.vsix` file:
-```
+```bash
 vsce package
 ```
 This will generate a file, for example `nools-markup-0.0.1.vsix` (where `0.0.1` represents the current version.)
@@ -54,5 +54,7 @@ code --install-extension nools-markup-0.0.1.vsix
 vsce package
 ```
 ### 3. Install Updated Package
+```bash
 code --install-extension nools-markup-0.0.1.vsix (where `0.0.1` represents the current version.)
+```
 ### 4. Reload vscode
