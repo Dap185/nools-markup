@@ -46,7 +46,9 @@ This will generate a file, for example `nools-markup-0.0.1.vsix` (where `0.0.1` 
 Current version: `0.0.3`
 
 ### 4. Install the extension in VS Code
+```
 code --install-extension nools-markup-0.0.1.vsix
+```
 
 ## Making Changes
 ### 1. Make your changes
