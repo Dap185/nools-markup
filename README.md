@@ -13,6 +13,7 @@ This extension's purpose is to make writing nools more user-friendly in visual s
 ##  Prerequisites
 
 - Visual Studio Code
+- `code` command in vscode. 
 - Node.js (only required if you want to package a `.vsix`)
 - Git
 
@@ -42,6 +43,7 @@ Create the `.vsix` file:
 vsce package
 ```
 This will generate a file, for example `nools-markup-0.0.1.vsix` (where `0.0.1` represents the current version.)
+Current version: `0.0.3`
 
 ### 4. Install the extension in VS Code
 code --install-extension nools-markup-0.0.1.vsix
